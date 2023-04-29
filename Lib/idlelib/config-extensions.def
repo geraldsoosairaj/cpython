@@ -60,3 +60,12 @@ z-text= Z
 z-in= <Control-Shift-KeyRelease-Insert>
 [ZzDummy_bindings]
 z-out= <Control-Shift-KeyRelease-Delete>
+
+# An extension for code outline
+[CodeOutline]
+enable= True
+enable_shell = False
+enable_editor = True
+code-outline-text = CO
+[CodeOutline_cfgBindings]
+show-code-outline= <Control-Shift-Key-A>

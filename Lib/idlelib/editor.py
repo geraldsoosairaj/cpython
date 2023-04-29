@@ -1127,6 +1127,7 @@ class EditorWindow:
 
     extfiles = {  # Map built-in config-extension section names to file names.
         'ZzDummy': 'zzdummy',
+        'CodeOutline': 'codeoutline'
         }
 
     def load_extension(self, name):
